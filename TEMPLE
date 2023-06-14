@@ -5,5 +5,12 @@ $ python hello.py
 Hello world!
 
 print(5 ** 2) # 5^2
-print(59 / 60) # 0
-print(
+print(59 / 60) # 0.9833333333333333
+print(59 // 60) # 0
+
+>>> name = input('What is your name?\n')
+What is your name?
+Chuck
+>>> print(name)
+Chuck
+
