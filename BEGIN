@@ -1,0 +1,5 @@
+$ cat hello.py
+print('Hello world!')
+
+$ python hello.py
+Hello world!
