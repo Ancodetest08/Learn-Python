@@ -6,8 +6,9 @@
 name = 'An'
 age = 20
 
-print("Name: " + "An")
+print("Name: " + name)
 print("Age: " + str(age))
 print("Hello " * 3)
+
 print(type(name))
 print(type(str(age)))
