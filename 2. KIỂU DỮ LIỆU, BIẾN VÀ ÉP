@@ -3,12 +3,12 @@
 # bool: Luận lý
 # str: Xâu ký tự
 
-name = 'An'
-age = 20
+name = input()
+age = int(input())
 
 print("Name: " + name)
 print("Age: " + str(age))
 print("Hello " * 3)
 
 print(type(name))
-print(type(str(age)))
+print(type(age))
