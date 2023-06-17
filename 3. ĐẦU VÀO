@@ -1,9 +1,9 @@
 name = input('What is your name?\n')
 age = int(input())
 
-print("Name: " + name)
-print("Age: " + str(age))
-print("Hello " * 3)
+print('Name: ' + name)
+print('Age: ' + str(age))
+print('Hello ' * 3)
 
 print(type(name))
 print(type(age))
