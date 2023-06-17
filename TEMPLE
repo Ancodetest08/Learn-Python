@@ -4,10 +4,6 @@ print('Hello world!')
 $ python hello.py
 Hello world!
 
-print(5 ** 2) 		# 5^2
-print(59 / 60) 		# 0.9833333333333333
-print(59 // 60) 	# 0
-
 >>> name = input('What is your name?\n')
 What is your name?
 Chuck
@@ -56,3 +52,26 @@ except:
 ' '
 >>> len('Hello world')
 11
+
+>>> import math
+math.log10(x)
+math.sin(x)
+math.pi
+math.sqrt(x)
+
+>>> import random
+>>> for  i in range(10):
+		x = random.random()
+		print(x)
+>>> random.radint(5, 10)
+>>> t = [1, 2, 3]
+>>> random.choice(t)
+
+
+
+
+
+
+
+
+
