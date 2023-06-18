@@ -1,0 +1,21 @@
+>>> list = ['a', 'e', 'i', 'u']
+>>> print(list[0])
+a
+>>> print(len(list))
+4
+>>> list.insert(3, 'o')		# ['a', 'e', 'i', 'o', 'u']
+>>> print(list(list))
+>>> list.remove('a')		# ['e', 'i', 'o', 'u']
+
+>>> lst = []
+>>> lst.append(4)
+>>> lst.append(3)
+>>> lst.append(6)
+>>> print(lst)
+[4, 3, 6]
+
+>>> lst = [2, 3, 1]
+>>> print(max(lst))
+3
+>>> print(min(lst))
+1
