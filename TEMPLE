@@ -4,33 +4,8 @@ print('Hello world!')
 $ python hello.py
 Hello world!
 
-x is y 			# x is the same as y
-x is not y 		# x is not the same as y
-
-if x > 0:
-	print('x is positive')
-
 if x < 0:
 	pass		# need to handle negative values!
-
-if x % 2 == 0:
-	print('x is even')
-else:
-	print('x is odd')
-
-if x < y:
-	print('x is less than y')
-elif x > y:
-	print('x is greater than y')
-else:
-	print('x and y are equal')
-
-if choice == 'a':
-	print('Bad guess')
-elif choice == 'b':
-	print('Good guess')
-elif choice == 'c':
-	print('Close, but not correct')
 
 inp = input('Enter Fahrenheit Temperature:')
 try:
@@ -44,8 +19,6 @@ except:
 'w'
 >>> min("Hello world')
 ' '
->>> len('Hello world')
-11
 
 >>> import math
 math.log10(x)
@@ -87,12 +60,6 @@ print('Done!')
 >>> numbers = [1, 2, 3, 4, 5]
 >>> sum(numbers)
 15
->>> len(numbers)
-5
->>> max(numbers)
-5
->>> min(numbers)
-1
 
 def min(values):
 	smallest = None
