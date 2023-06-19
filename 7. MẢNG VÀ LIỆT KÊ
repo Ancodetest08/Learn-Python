@@ -1,21 +1,20 @@
->>> list = ['a', 'e', 'i', 'u']
->>> print(list[0])
-a
->>> print(len(list))
-4
->>> list.insert(3, 'o')		# ['a', 'e', 'i', 'o', 'u']
->>> print(list(list))
->>> list.remove('a')		# ['e', 'i', 'o', 'u']
+>>> lst = ['a', 'e', 'i', 'u']
+>>> print(lst[0])			# a
+>>> print(len(lst))			# 4
+>>> lst.insert(3, 'o')		# ['a', 'e', 'i', 'o', 'u']
+>>> lst.remove('a')			# ['e', 'i', 'o', 'u']
+>>> lst.pop(1)				# ['e', 'o', 'u']
 
 >>> lst = []
->>> lst.append(4)
->>> lst.append(3)
->>> lst.append(6)
->>> print(lst)
-[4, 3, 6]
+>>> lst.append(4)		# [4]
+>>> lst.append(3)		# [4, 3]
+>>> lst.append(6)		# [4, 3, 6]
 
->>> lst = [2, 3, 1]
->>> print(max(lst))
-3
->>> print(min(lst))
-1
+>>> lst = [2, 3, 1, 1, 4, 3]
+>>> max(lst)					# 3
+>>> min(lst)					# 1
+>>> lst.reverse()				# [3, 4, 1, 1, 3, 2]
+>>> lst.sort()					# [1, 1, 2, 3, 3, 4]
+>>> lst.sort(reverse = True)	# [4, 3, 3, 2, 1, 1]
+>>> lst.count(3)				# 2
+>>> lst.clear()					# []
