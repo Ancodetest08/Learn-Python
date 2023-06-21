@@ -1,28 +1,22 @@
->>> i = 1
->>> while i <= 5:
-		print(i)
- 		i += 1
+while i <= 5:
+	print(i, end = ' ')			# 1 2 3 4 5
+ 	i += 1
 
->>> for i in range(1, 5):
-		print(i)
-1
-2
-3
-4
+for i in range(1, 5):
+	print(i, end = ' ')			# 1 2 3 4
 
->>> name = 'Codelearn'
->>> for c in name:
-	print(c)
-	
->>> for i in range(1, 11):
+name = 'Codelearn'
+for i in name:
+	print(i, end = ' ')			# C o d e l e a r n
+
+for i in range(1, 11):
 	if i == 6:
 		break
-	print(i)
+	print(i, end = ' ')			# 1 2 3 4 5
 	
->>> for i in range(1, 20):
+for i in range(1, 20):
 	if i % 2 == 0:
 		continue
-	print(i)
+	print(i, end = ' ')			# 1 3 5 7 9 11 13 15 17 19
 
->>> print(round(2.665, 2))
-1.67
+round(2.665, 2)					#2.67
