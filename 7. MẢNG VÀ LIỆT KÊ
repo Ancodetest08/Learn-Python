@@ -1,20 +1,16 @@
->>> lst = ['a', 'e', 'i', 'u']
->>> print(lst[0])			# a
->>> print(len(lst))			# 4
->>> lst.insert(3, 'o')		# ['a', 'e', 'i', 'o', 'u']
->>> lst.remove('a')			# ['e', 'i', 'o', 'u']
->>> lst.pop(1)				# ['e', 'o', 'u']
+list = ['a', 'e', 'i', 'u']
+list[0]							# 'a'
+len(list)						# 4
+list.insert(3, 'o')				# ['a', 'e', 'i', 'o', 'u']
+list.remove('a')				# ['e', 'i', 'o', 'u']
+list.pop(1)						# ['e', 'o', 'u']
+list.append(4)					# ['e', 'o', 'u', 4]
 
->>> lst = []
->>> lst.append(4)		# [4]
->>> lst.append(3)		# [4, 3]
->>> lst.append(6)		# [4, 3, 6]
-
->>> lst = [2, 3, 1, 1, 4, 3]
->>> max(lst)					# 3
->>> min(lst)					# 1
->>> lst.reverse()				# [3, 4, 1, 1, 3, 2]
->>> lst.sort()					# [1, 1, 2, 3, 3, 4]
->>> lst.sort(reverse = True)	# [4, 3, 3, 2, 1, 1]
->>> lst.count(3)				# 2
->>> lst.clear()					# []
+list = [5, 8, 9, 6, 7, 8]
+max(list)						# 9
+min(lst)						# 5
+list.reverse()					# [8, 7, 6, 9, 8, 5]
+list.sort()						# [5, 6, 7, 8, 8, 9]
+list.sort(reverse = True)		# [9, 8, 8, 7, 6, 5]
+list.count(8)					# 2
+list.clear()					# []
