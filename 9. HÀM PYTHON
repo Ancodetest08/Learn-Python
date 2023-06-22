@@ -10,7 +10,3 @@ def sum_of_list(list):
   		ans += i
 	return ans
 print(sum_of_list([3, 4, 2]))		# 9
-
-list = 'abAbCD'
-list[1].isupper()					# False
-list[1].islower()					# True
