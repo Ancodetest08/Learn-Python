@@ -10,6 +10,8 @@ s[-2]                   # '2'
 s[3:5]					# 'EL'
 s[7:]					# 'RN123'
 s[:6]					# 'CODELE'
+s[1].isupper()			# True
+s[1].islower()			# False
 s.lower()				# 'codelearn123'
 s.upper()				# 'CODELEARN123'
 s.isalnum()				# True (All Chữ Và Số)
