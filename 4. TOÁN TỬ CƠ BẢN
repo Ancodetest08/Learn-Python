@@ -1,5 +1,6 @@
 print(5 // 2)		# 2
 print(2 ** 3)		# 8
+
 print('Code' in 'Codelearn')		# True
 print('Py' not in 'Python')			# False
 
