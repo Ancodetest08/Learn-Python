@@ -5,20 +5,20 @@ Orange
 '''
 
 s = 'CODELEARN123'
-s[-1]                   # 3
-s[-2]                   # 2
-s[3:5]					# EL
-s[7:]					# RN123
-s[:6]					# CODELE
-s.lower()				# codelearn123
-s.upper()				# CODELEARN123
-s.isalnum()				# False (All Chữ Và Số)
+s[-1]                   # '3'
+s[-2]                   # '2'
+s[3:5]					# 'EL'
+s[7:]					# 'RN123'
+s[:6]					# 'CODELE'
+s.lower()				# 'codelearn123'
+s.upper()				# 'CODELEARN123'
+s.isalnum()				# True (All Chữ Và Số)
 s.isalpha()				# False (All Chữ)
 s.isnumeric()			# False (All Số)
 
 s = 'A1B1C1D1E1'
 s.split('1')			# ['A', 'B', 'C', 'D', 'E', '']
-s.replace('1', '2')     # A2B2C2D2E2
+s.replace('1', '2')     # 'A2B2C2D2E2'
 
 list = ['a', 'b', 'c']
 print('-'.join(list))   # a-b-c
