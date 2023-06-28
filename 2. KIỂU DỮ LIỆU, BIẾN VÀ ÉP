@@ -5,6 +5,6 @@
 
 name = 'Python'
 age = 20
-print('Name: ', + name)
+print('Name: ' + name)
 print('Age: ' + str(age))
 print('Hello ' * 3)
