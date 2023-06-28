@@ -21,7 +21,3 @@ s.isnumeric()			# False (All Số)
 s = 'A1B1C1D1E1'
 s.split('1')			# ['A', 'B', 'C', 'D', 'E', '']
 s.replace('1', '2')     # 'A2B2C2D2E2'
-
-list = ['a', 'b', 'c']
-print('-'.join(list))   # a-b-c
-list.reverse()			# ['c', 'b', 'a']
