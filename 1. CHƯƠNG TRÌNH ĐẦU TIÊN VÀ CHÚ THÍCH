@@ -2,11 +2,11 @@
 A simple Python program to display 'Hello, World!' on the screen
 using Python's print() function
 """
-print('Hello, World!') # Display 'Hello, World!' on the screen
+print('Hello, World!') # Display 'Hello, World!' on the screen			# Hello, World!
 
 
 '''
 A simple Python program to display 1 + 1 on the screen
 using Python's print() function
 '''
-print('1 + 1 =', 1 + 1)
+print('1 + 1 =', 1 + 1)													# 1 + 1 = 2
