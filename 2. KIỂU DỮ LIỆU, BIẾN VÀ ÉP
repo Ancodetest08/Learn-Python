@@ -6,8 +6,6 @@
 
 name = 'Python'
 age = 20
-
-
 print('Name: ' + name)				# Name: Python
 print('Age: ' + str(age))			# Age: 20
 print('Hello ' * 3)					# Hello Hello Hello
