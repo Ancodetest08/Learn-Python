@@ -2,11 +2,12 @@ def show():
 	for i in range(1, 11):
  		print(i, end = ' ')
    	print()
-show()								# 1 2 3 4 5 6 7 8 9 10
+show()									# 1 2 3 4 5 6 7 8 9 10
+
 
 def sum_of_list(list):
 	ans = 0
  	for i in list:
   		ans += i
 	return ans
-print(sum_of_list([3, 4, 2]))		# 9
+print(sum_of_list([3, 4, 2]))			# 9
