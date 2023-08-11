@@ -2,5 +2,5 @@ name = input('What is your name?\n')			# What is your name?
 age = int(input('How old are you?\n'))			# How old are you?
 
 
-print(type(name))
-print(type(age))
+print(type(name))								# str
+print(type(age))								# int
