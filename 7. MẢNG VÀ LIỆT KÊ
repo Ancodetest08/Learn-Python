@@ -1,16 +1,17 @@
 list = ['a', 'e', 'i', 'u']
-len(list)						# 4
-list.insert(3, 'o')				# ['a', 'e', 'i', 'o', 'u']
-list.remove('a')				# ['e', 'i', 'o', 'u']
-list.pop(1)						# ['e', 'o', 'u']
-list.append('b')				# ['e', 'o', 'u', 'b']
-print('-'.join(list))			# e-o-u-b
+len(list)							# 4
+list.insert(3, 'o')					# ['a', 'e', 'i', 'o', 'u']
+list.remove('a')					# ['e', 'i', 'o', 'u']
+list.pop(1)							# ['e', 'o', 'u']
+list.append('b')					# ['e', 'o', 'u', 'b']
+print('-'.join(list))				# e-o-u-b
+
 
 list = [5, 8, 9, 6, 7, 8]
-max(list)						# 9
-min(list)						# 5
-list.reverse()					# [8, 7, 6, 9, 8, 5]
-list.sort()						# [5, 6, 7, 8, 8, 9]
-list.sort(reverse = True)		# [9, 8, 8, 7, 6, 5]
-list.count(8)					# 2
-list.clear()					# []
+max(list)							# 9
+min(list)							# 5
+list.reverse()						# [8, 7, 6, 9, 8, 5]
+list.sort()							# [5, 6, 7, 8, 8, 9]
+list.sort(reverse = True)			# [9, 8, 8, 7, 6, 5]
+list.count(8)						# 2
+list.clear()						# []
